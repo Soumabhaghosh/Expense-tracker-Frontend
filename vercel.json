@@ -3,6 +3,10 @@
     {
       "source": "/api/:path*",
       "destination": "https://expense-tracker-backend-v0gy.onrender.com/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
