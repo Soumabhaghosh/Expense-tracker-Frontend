@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://expense-tracker-backend-v0gy.onrender.com/api/:path*"
+      "destination": "http://34.205.168.211:5000/api/:path*"
     },
     {
       "source": "/(.*)",
