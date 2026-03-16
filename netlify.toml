@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/api/*"
-  to = "https://expense-tracker-backend-v0gy.onrender.com/api/:splat"
+  to = "http://34.205.168.211:5000/api/:splat"
   status = 200
   force = true
 
