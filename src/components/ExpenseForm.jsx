@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { CATEGORIES, PAYMENT_METHODS, RECUR_FREQUENCIES } from '../utils/constants';
 import { Btn, Alert, Field } from './UI';
 
-const today = () => new Date().toISOString().slice(0, 10);
+const today = () => new Date().toLocaleDateString('en-CA');
 
 export default function ExpenseForm({ initial, onSave, onCancel, loading }) {
   const [form, setForm] = useState(

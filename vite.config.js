@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://34.205.168.211:5000/',
+        target: 'http://ec2-34-205-168-211.compute-1.amazonaws.com:5000',
         changeOrigin: true,
       },
     },
